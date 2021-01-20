@@ -1055,6 +1055,10 @@ footer>P {
     }
     .icons {
         width: 275px;
+        position: relative;
+    }
+    .standard{
+        padding-left: 20px;
     }
     .soft_img {
         transform: scale(0.5, 0.5);
@@ -1066,5 +1070,8 @@ footer>P {
     }
     .desc_text {
         font-size: 11px;
+    }
+    .testimonials_text{
+        padding-right: 0;
     }
 }
