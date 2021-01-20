@@ -791,13 +791,13 @@ footer>P {
     .standard {
         padding: 0 0 100px 59px;
     }
+    .insert1 {
+        margin-right: 100px;
+    }
     .insert2 {
         margin: 90px 25px 0 0;
     }
-    .sign_up {
-        position: relative;
-        margin-bottom: 55px;
-    }
+    
     .icons {
         width: 400px;
         right: 5%;
@@ -811,6 +811,9 @@ footer>P {
 }
 
 @media screen and (max-width: 1024px) {
+    .topnav a {
+        padding: 22.5px;
+    }
     .soft_text {
         display: none;
     }
@@ -819,11 +822,31 @@ footer>P {
         flex-direction: column;
         padding-left: 4.8%;
     }
+    .modern {
+        max-width: 235px;
+        font-size: 18px;
+    }
+    .lorem {
+        max-width: 240px;
+        font-size: 12.2px;
+    }
+    .lorem1{
+        max-width: 240px;
+    }
     .soft {
         padding-bottom: 0;
     }
+    .soft_head{
+        padding-top: 48px;
+    }
     .insert1 {
         margin: 127px 60px 166px 0;
+    }
+    .sub_list_stext {
+        width: 340px;
+    }
+    .title_stext {
+        width: 270px;
     }
     .standard_text>p {
         width: 100%;
@@ -858,20 +881,14 @@ footer>P {
         width: auto;
         top: 4px;
     }
+    .custom_text{
+        padding-right: 0px;
+    }
     .contact_inputs {
         max-width: 300px;
     }
     .message {
         max-width: 300px;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .icons {
-        position: relative;
-        width: auto;
-        left: 5%;
-        right: 0;
     }
 }
 
@@ -888,6 +905,10 @@ footer>P {
     }
     .header_text {
         width: 375px;
+    }
+    .sign_up {
+        position: relative;
+        margin-bottom: 55px;
     }
     .insert {
         padding-left: 0;
